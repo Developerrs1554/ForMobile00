@@ -13,20 +13,21 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginBottom="32dp"
         android:fontFamily="@font/boldd"
         android:text="Giriş Yap"
         android:textColor="@color/button"
         android:textSize="30dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
         tools:layout_editor_absoluteX="32dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="212dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="408dp"
+        android:layout_height="314dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -34,9 +35,11 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/edittextarkaplan"
         android:ems="10"
         android:fontFamily="@font/boldd"
@@ -45,14 +48,18 @@
         android:inputType="text"
         android:padding="10dp"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:layout_editor_absoluteX="21dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/edittextarkaplan"
         android:ems="10"
         android:fontFamily="@font/boldd"
@@ -61,50 +68,47 @@
         android:inputType="phone"
         android:padding="10dp"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
-        tools:layout_editor_absoluteX="21dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginTop="32dp"
         android:fontFamily="@font/boldd"
         android:text="Hesabın yok mu ?"
+        android:visibility="gone"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.793"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
-        app:layout_constraintVertical_bias="0.227" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="664dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="80dp"
         android:fontFamily="@font/boldd"
         android:text="@string/Createanaccount"
+        android:visibility="gone"
         android:textColor="@color/button"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
-        app:layout_constraintVertical_bias="0.179" />
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="669dp" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="172dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="108dp"
         android:backgroundTint="@color/button"
         android:drawableLeft="@drawable/buttonarrow"
         android:fontFamily="@font/boldd"
         android:text="DEVAM ET"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

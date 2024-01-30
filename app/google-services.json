@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905550396539",
+    "project_id": "ekipmobile-a28f6",
+    "storage_bucket": "ekipmobile-a28f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905550396539:android:3ce95eb258dffeb04eb6de",
+        "android_client_info": {
+          "package_name": "com.example.mobil00"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACqsOnW_NrSOdSN7hmopgzQllrpDwQp2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
