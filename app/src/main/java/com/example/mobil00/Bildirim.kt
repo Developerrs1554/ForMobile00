@@ -10,7 +10,7 @@ class Bildirim : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bildirim)
 
-        val button=findViewById<Button>(R.id.button1)
+        val button=findViewById<Button>(R.id.devamm)
 
         button.setOnClickListener{
 

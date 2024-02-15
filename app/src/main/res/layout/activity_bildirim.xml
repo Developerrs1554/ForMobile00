@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/devamm"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -48,6 +48,7 @@
         android:drawableLeft="@drawable/buttonarrow"
         android:fontFamily="@font/boldd"
         android:text="DEVAM ET"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -21,7 +21,7 @@
         android:textColor="#407BFF"
         android:textSize="28sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintBottom_toTopOf="@+id/devamm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -36,7 +36,7 @@
         tools:layout_editor_absoluteX="30dp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/devamm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -46,6 +46,7 @@
         android:drawableLeft="@drawable/buttonarrow"
         android:fontFamily="@font/boldd"
         android:text="DEVAM ET"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

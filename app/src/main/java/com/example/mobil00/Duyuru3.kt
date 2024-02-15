@@ -10,7 +10,7 @@ class Duyuru3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_duyuru3)
 
-        val button=findViewById<Button>(R.id.button1)
+        val button=findViewById<Button>(R.id.devamm)
 
         button.setOnClickListener{
 
