@@ -152,7 +152,7 @@ class verifyPart : AppCompatActivity() {
                     //-------------------------------
 
                     kayitAlVeri()
-                    var intent = Intent(applicationContext,deneme::class.java)
+                    var intent = Intent(applicationContext,approvalPage::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(intent)
 
@@ -261,8 +261,9 @@ class verifyPart : AppCompatActivity() {
         var kayıt = refff.child("$userUid")
         kayıt.child("Name").setValue("$Kİ")
         kayıt.child("numara").setValue("$KN")
+        kayıt.child("Durum").setValue("Üye")
         //kayıt.child("Açıklama").setValue("")
-        kayıt.child("Onay Durumu").setValue("")
+        kayıt.child("Onay Durumu").setValue("Onaylanmadı")
         kayıt.child("Kullanıcı uid").setValue(userUid)
         //.child("Arzulanan tarih").setValue("")
         //kayıt.child("Belirlenen tarih").setValue("")

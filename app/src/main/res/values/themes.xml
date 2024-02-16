@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Mobil00" parent="Base.Theme.Mobil00" />
+    <style name="Theme.Mobil00.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Mobil00.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Mobil00.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
